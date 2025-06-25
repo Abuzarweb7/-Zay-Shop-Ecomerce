@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+@font-face {
+    font-family: savate;
+    src: url(Savate\ \(2\));
+}
+body{
+
+ font-family: "Savate", sans-serif;
+  font-optical-sizing: auto;
+
+
+}
+:root{
+    --logo:#59ab6e;
+    --header:#222836;
+    --white:#ffff;
+}
+/* top div  */
+.socail-icons{
+    background-color: var(--header);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.email-num{
+    color: var(--white);
+    font-size: 1.2;
+}
+.icons  {
+font-size: 1.5rem;
+}
+/* top div ended */
+/* navbar started */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.logo{
+    color: var(--logo);
+    font-size: 2rem;
+}
+.nav-item{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.menu{
+    font-size: 2rem;
+    margin-top: 10px;
+    display: none;
+}
+.nav-item  a {
+font-size: 1.6rem;
+color: var(--header);
+text-decoration: none;
+
+}
+li{list-style: none;}
+.shop-icons{
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+@media(max-width:768px){
+.nav-item{
+    display: none;
+}
+.shop-icons{
+    display: none;
+}
+.menu{
+    display: block;
+}
+}
+/* navbar ended */
+/* sec container */
+.container-sec{
+    background-image: url(banner_img_02.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+.sec-content{
+      position: relative;
+  width: 100%;
+  height: 80vh; /* Full screen height */
+  
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+ 
+
+}
+.sec-content h1{
+    font-size: 5rem;
+    color: var(--logo);
+    font-weight: 400;
+}
+.sec-content h2{
+    font-size: 4rem;
+    font-weight: 300;
+}
+.sec-content {
+font-size: 1.6rem;
+font-weight:200;
+}
+@media(max-width:375px){
+    html{
+        font-size: 40%;
+    }
+}
+/* sec ccontaner ended */
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.images img{
+    width: 250px;
+    border-radius: 50%;
+}
+.catogry-sec{
+    margin-top: 20px;
+}
+.catogry-sec h1,p{
+text-align: center;
+}
+.catogry-sec h1{
+    font-size: 4rem;
+    font-weight: 400;
+}
+.catogry-sec p{
+    font-size: 1.6rem;
+}
+@media(max-width:764px){
+    .images{
+        display: flex;
+        flex-direction: column;
+    }
+   html{
+    font-size: 50%;
+   }
+}
