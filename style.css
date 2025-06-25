@@ -196,6 +196,7 @@ margin-left: 50px;
  .product-sec-para{
     font-size: 2rem;
  }
+   /* cards sec */
  .product-cards {
       display: flex;
       flex-wrap: wrap;
@@ -252,3 +253,37 @@ margin-left: 50px;
         width: 100%;
       }
     }
+     /* card sec ended  */
+   footer{
+        background-color: var(--header);
+        color: var(--white);
+        margin-top: 20px;
+    
+     }
+     .footer-text{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 100px;
+        flex-wrap: wrap;
+        
+     }
+     .text1 h1{
+        font-size: 3rem;
+        color: var(--logo);
+        font-weight: 400;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.247);
+     
+     }
+     .text2 h1{
+        font-size: 3rem; 
+        font-weight: 400;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.247);
+     }
+     .text3 h1{
+        font-size: 3rem; 
+        font-weight: 400;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.247);
+     }
+     .num-location p{
+        font-size: 2rem;
+     }
